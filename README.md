@@ -14,3 +14,7 @@ Fungsi 'add_item' digunakan untuk menambahkan item baru ke dalam tas. Fungsi 're
 ## single_linked_list_chess
 'Participant' dan 'Tournament'. Participant merepresentasikan peserta turnamen dengan atribut nama dan peringkat. Tournament merepresentasikan turnamen catur menggunakan linked list, dengan head sebagai titik awal linked list.
 Fungsi 'register_participant' digunakan untuk mendaftarkan peserta baru ke dalam turnamen. Fungsi 'eliminate_participant' digunakan untuk mengeliminasi peserta yang telah kalah berdasarkan nama. Fungsi 'print_participants_by_ranking' mencetak daftar peserta yang diurutkan berdasarkan peringkat
+
+## single_lingked_list_inventory
+Product dan Inventory. Product merepresentasikan produk dengan atribut nama, kode, dan jumlah stok. Inventory merepresentasikan inventaris produk menggunakan linked list, dengan head sebagai titik awal linked list.
+Fungsi add_product digunakan untuk menambahkan produk baru ke dalam inventaris. Fungsi remove_product digunakan untuk menghapus produk berdasarkan kode. Fungsi print_inventory mencetak daftar produk beserta jumlah stoknya.
