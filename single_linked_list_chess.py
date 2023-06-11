@@ -65,16 +65,16 @@ class Tournament:
 tournament = Tournament()
 
 # Mendaftarkan peserta turnamen
-tournament.register_participant("Andi", 1500)
+tournament.register_participant("Leo", 1500)
 tournament.register_participant("Budi", 1800)
-tournament.register_participant("Charlie", 1650)
+tournament.register_participant("Abdul", 1650)
 tournament.register_participant("Dewi", 1600)
 
 # Mencetak daftar peserta berdasarkan peringkat
 tournament.print_participants_by_ranking()
 
 # Menghapus peserta yang kalah
-tournament.eliminate_participant("Charlie")
+tournament.eliminate_participant("Dewi")
 
 # Mencetak daftar peserta berdasarkan peringkat setelah eliminasi
 tournament.print_participants_by_ranking()
